@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.Button?>
+<GridPane alignment="top_center" hgap="10" prefHeight="300.0" prefWidth="218.0" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller" minHeight="500" minWidth="500">
+    <HBox alignment="TOP_CENTER" maxHeight="300" maxWidth="307.0" minHeight="92.0" minWidth="280.0" prefHeight="92.0" prefWidth="307.0" spacing="30">
+        <padding>
+            <Insets bottom="40" left="40" right="40" top="40" />
+        </padding>
+        <Text text="Decks" />
+        <Text text="Study" />
+        <Button text="Add"/>
+    </HBox>
+
+</GridPane>
